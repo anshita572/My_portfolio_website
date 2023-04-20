@@ -1,4 +1,4 @@
-// https://644043a4156e811c791ec863--zesty-conkies-1bd48e.netlify.app/
+// anshita-portfolio.netlify.app
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
