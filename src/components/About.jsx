@@ -40,7 +40,7 @@ const About = () => {
     variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
     >
-      I'm A coding enthusiast and an aspiring computer engineer with basic knowledge in coding and design
+      I'm a coding enthusiast and an aspiring computer engineer with basic knowledge in coding and design. I specialize in frontend development using HTML, CSS, JavaScript and React as well as in data structures and algorithms in C++. I am also skilled in SQL and PL/SQL database management, and have experience working with Git and Github for version control. I enjoy learning about new technologies and constantly improving my skills to stay up-to-date with the latest trends and best practices. I am seeking to explore and develop a divergent thinking by grabbing opportunities
 
     </motion.p>
     {/* Tilting cards */}

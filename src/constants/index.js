@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    c,
+    stubble,
+    snake,
+    disney
   } from "../assets";
   
   export const navLinks = [
@@ -46,20 +50,24 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Structures & Algorithms",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Git & Github",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Database Management Systems",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "C++",
+      icon: c,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -80,10 +88,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -104,14 +112,15 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
+    
   ];
   
   const experiences = [
@@ -198,67 +207,73 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Stubb Venture",
+      // href: "https://stubbventure.com/",
+      // cursor:'pointer',
+      linkUrl: "https://anshita572.github.io/stubble-management-project/",
+      
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An online web portal that aims to bridge the gap between farmers and factories and help control stubble burning. The platform provides an easier way for farmers to sell their stubble and for factories to purchase it",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "google sheets api",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: stubble,
+      source_code_link: "https://github.com/anshita572/stubble-management-project",
+    },
+    {
+      name: "Clone - Disney Hotstar",
+      linkUrl: "https://anshita572.github.io/Disney-Hotstar-clone/",
+      description:
+        "Frontend clone of Disney+Hotstar that mimics the design and layout of the original platform. It features a modern and sleek user interface which makes it easy for users to navigate and discover content",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: disney,
+      source_code_link: "https://github.com/anshita572/Disney-Hotstar-clone",
+    },
+    {
+      name: "Snake Mania",
+      linkUrl: "https://anshita572.github.io/snake-game/",
+      description:
+        "An enjoyable and engaging game that tracks the current score and high score while featuring lively music and sound effects. This game is built using HTML, CSS, and JavaScript, offering an interactive experience",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: snake,
+      source_code_link: "https://github.com/anshita572/snake-game",
     },
   ];
   
