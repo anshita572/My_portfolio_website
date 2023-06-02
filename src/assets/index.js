@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import thapar from "./company/thapar_logo.jfif";
+import cbse from "./company/cbse_logo.jfif";
+import icse from "./company/icse_logo.jfif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,5 +69,8 @@ export {
   c,
   stubble,
   disney,
-  snake
+  snake,
+  thapar,
+  cbse,
+  icse
 };

@@ -26,7 +26,10 @@ import {
     c,
     stubble,
     snake,
-    disney
+    disney,
+    thapar,
+    cbse,
+    icse
   } from "../assets";
   
   export const navLinks = [
@@ -125,57 +128,54 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Bachelor of Engineering (B.E.) in Computer Engineering",
+      company_name: "Thapar Institute of Engineering and Technology,Patiala",
+      icon: thapar,
+      iconBg: "white",
+      date: "2020 - 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Current CGPA : 8.32",
+        "Core Subjects : Data Structures and Algorithms,Operating Systems,Database Management System,Computer Networks,Software Engineering,Machine Learning",
+        "Electives : Cloud Computing,Parallel and Distributed Computing,GPU Computing",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Higher Secondary Education",
+      company_name: "Central Board of Secondary Education (CBSE)",
+      icon: cbse,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+  
+      date: "2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Class 12th Percentage : 91.2%",
+        "Subjects : Physics,Chemistry,Mathematics,English,Physical Education",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Senior Secondary Education",
+      company_name: " Indian Certificate of Secondary Education (ICSE)",
+      icon: icse,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Class 10th Percentage : 97.4%",
+        "Academic Achievement : ICSE District Topper",
+        "Subjects : English,Mathematics,Science,History,Civics & Geography,Economic Applications,Hindi,Punjabi",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
