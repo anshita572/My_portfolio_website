@@ -46,13 +46,14 @@ import {
       id: "contact",
       title: "Contact",
     },
-    {
-      id: "github",
-      title: "GitHub",
-      icon: github,
-      url: "https://github.com/anshita572",
-    },
+    // {
+    //   id: "github",
+    //   title: "GitHub",
+    //   icon: github,
+    //   url: "https://github.com/anshita572",
+    // },
   ];
+  
   
   const services = [
     {
