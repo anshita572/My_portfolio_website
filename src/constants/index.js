@@ -29,7 +29,8 @@ import {
     disney,
     thapar,
     cbse,
-    icse
+    icse,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -38,12 +39,18 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "github",
+      title: "GitHub",
+      icon: github,
+      url: "https://github.com/anshita572",
     },
   ];
   
@@ -143,7 +150,7 @@ import {
       title: "Higher Secondary Education",
       company_name: "Central Board of Secondary Education (CBSE)",
       icon: cbse,
-      iconBg: "#E6DEDD",
+      iconBg: "white",
   
       date: "2020",
       points: [
@@ -155,7 +162,7 @@ import {
       title: "Senior Secondary Education",
       company_name: " Indian Certificate of Secondary Education (ICSE)",
       icon: icse,
-      iconBg: "#383E56",
+      iconBg: "white",
       date: "2018",
       points: [
         "Class 10th Percentage : 97.4%",
