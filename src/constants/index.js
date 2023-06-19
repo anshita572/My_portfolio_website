@@ -142,7 +142,7 @@ import {
       iconBg: "white",
       date: "2020 - 2024",
       points: [
-        "Current CGPA : 8.32",
+        "Current CGPA : 8.43",
         "Core Subjects : Data Structures and Algorithms,Operating Systems,Database Management System,Computer Networks,Software Engineering,Machine Learning",
         "Electives : Cloud Computing,Parallel and Distributed Computing,GPU Computing",
       ],
